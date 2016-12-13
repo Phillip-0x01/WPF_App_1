@@ -5,9 +5,42 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
-        Title="DatabaseView" Height="300" Width="635.156">
+        Title="DatabaseView" Height="300" Width="1118.156">
     <Grid>
-        <Image Source="http://10steps.sg/wp-content/uploads//2012/11/White-christmas-light-background.jpg" Stretch="UniformToFill"></Image>
-        <DataGrid x:Name="grdDatabase" HorizontalAlignment="Left" Height="170" Margin="58,47,0,0" VerticalAlignment="Top" Width="504"/>
+        <!-- Background Image -->
+        <Image Source="http://10steps.sg/wp-content/uploads//2012/11/White-christmas-light-background.jpg" Stretch="UniformToFill"/>
+
+        <!-- Top Menu -->
+        <DockPanel>
+            <Menu DockPanel.Dock="Top" Margin="0,0,-484,0">
+                <MenuItem Header="_File">
+                    <MenuItem Header="_Open" Margin="1,0,0,0"/>
+                    <MenuItem Header="_Save"/>
+                    <MenuItem Header="_Close"/>
+                </MenuItem>
+
+                <MenuItem Header="Actions">
+                    <MenuItem Header="View Big 10"/>
+                    <MenuItem Header="View ACC"/>
+                    <MenuItem Header="View SEC"/>
+                    <MenuItem Header="View PAC-10"/>
+                </MenuItem>
+
+                <MenuItem Header="_Help" InputGestureText="F2"/>
+            </Menu>
+            <StackPanel></StackPanel>
+        </DockPanel>
+
+        <!-- Database Grid View -->
+        <DataGrid x:Name="BowlGame_DataGrid" HorizontalAlignment="Left" Height="229" Margin="10,30,0,0" VerticalAlignment="Top" Width="1090">
+            
+
+
+                
+        </DataGrid>
+
+
+
+
     </Grid>
 </Window>

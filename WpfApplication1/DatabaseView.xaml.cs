@@ -27,8 +27,8 @@ namespace WpfApplication1
             InitializeComponent();
 
             // Load data grid view
-            string Query = "select * from employeeinfo";
-            LoadView(grdDatabase, Query);
+            string Query = "select * from bowl_games";
+            LoadView(BowlGame_DataGrid, Query);
         }
         
 

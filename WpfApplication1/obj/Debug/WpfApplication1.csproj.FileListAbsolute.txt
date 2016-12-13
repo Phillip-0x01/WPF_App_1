@@ -36,3 +36,27 @@ C:\Users\GAC-Phillip\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfAp
 C:\Users\GAC-Phillip\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
 C:\Users\GAC-Phillip\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Debug\DatabaseView.g.cs
 C:\Users\GAC-Phillip\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Debug\DatabaseView.baml
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\obj\Debug\DatabaseView.g.cs
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.lref
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\obj\Debug\DatabaseView.baml
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Phillip\Source\Repos\WPF_App_1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
