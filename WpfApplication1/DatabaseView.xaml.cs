@@ -52,4 +52,22 @@ namespace WpfApplication1
             }
         }
     }
+
+    public class BowlGames
+    {
+        public int year { get; set; }
+        public DateTime date { get; set; }
+        public string day { get; set; }
+        public string winner { get; set; }
+        public int winner_rank { get; set; }
+        public int winner_pts { get; set; }
+        public string loser { get; set; }
+        public int loser_rank { get; set; }
+        public int loser_pts { get; set; }
+        public int attendance { get; set; }
+        public string mvp { get; set; }
+        public string sponsor { get; set; }
+        public string bowl_name { get; set; }
+    }
+
 }

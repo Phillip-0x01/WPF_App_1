@@ -6,11 +6,26 @@
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
         Title="DatabaseView" Height="300" Width="1118.156">
+    
+    <!-- Style For the GridView Below-->
+    <Window.Resources>
+        <Style x:Key="DGHeaderStyle" TargetType="{x:Type DataGrid}">
+            <Setter Property="ColumnHeaderStyle" Value="{DynamicResource DGCHeaderStyle}"/>
+        </Style>
+        <Style x:Key="DGCHeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Background" Value="LightBlue" />
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Calibri" />
+        </Style>
+    </Window.Resources>
+    
     <Grid>
         <!-- Background Image -->
         <Image Source="http://10steps.sg/wp-content/uploads//2012/11/White-christmas-light-background.jpg" Stretch="UniformToFill"/>
 
-        <!-- Top Menu -->
+        <!-- Begin Top Menu -->
         <DockPanel>
             <Menu DockPanel.Dock="Top" Margin="0,0,-484,0">
                 <MenuItem Header="_File">
@@ -30,15 +45,55 @@
             </Menu>
             <StackPanel></StackPanel>
         </DockPanel>
+        <!-- End Top Menu -->
 
-        <!-- Database Grid View -->
-        <DataGrid x:Name="BowlGame_DataGrid" HorizontalAlignment="Left" Height="229" Margin="10,30,0,0" VerticalAlignment="Top" Width="1090">
-            
+        <!-- Start DataGrid -->
+        <DataGrid x:Name="BowlGame_DataGrid" HorizontalAlignment="Stretch" Height="229" Margin="26,24,0,0" VerticalAlignment="Top" Width="1090" ColumnWidth="SizeToCells"
+                  SelectionMode="Extended" SelectionUnit="FullRow" AlternatingRowBackground="LightGray" ColumnHeaderHeight="20" Style="{DynamicResource DGHeaderStyle}" 
+                  RowDetailsVisibilityMode="VisibleWhenSelected">
 
-
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding bowl_name}" Header="Bowl Game" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding year}" Header="Year" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding winner}" Header="Winning Team" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding winner_pts}" Header="Winning Team Points" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding loser}" Header="Losing Team" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding loser_pts}" Header="Losing Team Points" IsReadOnly="True"/>
                 
+                <!-- Start Game Details -->
+                <DataGridTextColumn Binding="{Binding date}" Header="Date of Game" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding day}" Header="Week Day" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding winner_rank}" Header="Winning Team Rank" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding loser_rank}" Header="Losing Team Rank" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding attendance}" Header="Attendance" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding mvp}" Header="Game MVP" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding sponsor}" Header="Game Sponsor" IsReadOnly="True"/>
+                <!-- End Game Details -->
+            </DataGrid.Columns>
+            
+            
+            <!--
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        
+            
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Background" Value="LightGreen" />
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Black"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.RowStyle>
+            -->
+    
         </DataGrid>
-
+        <!-- End DataGrid -->
 
 
 
